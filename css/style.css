@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wraper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+* {
+  padding-top: 5px;
+}
+
+.test-zero ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 22px;
+}
+
+div {
+  color: rgb(220, 82, 82);
+}
+
+* a {
+  color: green;
+}
+
+.text {
+  color: rgb(156, 64, 64);
+}
+
+#list {
+  color: rgb(178, 134, 134);
+}
+
+div.text {
+  color: green;
+}
+
+.lesson.text {
+  color: greenyellow;
+}
+
+.lesson {
+  color: rebeccapurple;
+}
+
+.text {
+  color: red;
+}
+
+.lesson,
+.text {
+  color: red;
+}
+
+.text p {
+  color: red;
+}
+
+.text * {
+  color: green;
+}
+
+.text > p {
+  color: red;
+}
+
+.text ~ p {
+  color: red;
+}
+
+.text + p {
+  color: red;
+}
+
+[class*=__container] {
+  border: 2px dashed rgb(10, 234, 10);
+  margin: 10px 0;
+  padding: 5px 0;
+}
